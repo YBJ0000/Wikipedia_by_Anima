@@ -1,0 +1,24 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:var(--www-wikipedia-org-roboto-regular-13-font-weight),var(--www-wikipedia-org-semantic-label-font-weight),var(--www-wikipedia-org-semantic-link-font-weight),700,var(--www-wikipedia-org-semantic-small-font-weight),var(--www-wikipedia-org-roboto-regular-12-9-font-weight),400,var(--www-wikipedia-org-semantic-strong-font-weight),var(--www-wikipedia-org-semantic-button-font-weight),italic");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "Georgia-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/65d0ee3b60dd0a5025dec57c/fonts/georgia.ttf")
+    format("truetype");
+}
